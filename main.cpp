@@ -96,7 +96,7 @@ class Alien{
     public :
         void printA(){
             cout<< "Alien     :  " << "life ==> " << char(3) << setfill('0') << setw(3)<<life <<
-            ", attack ==> " << setfill('0') << setw(3)<<weapon.get_attack()
+            ", attack ==> " << setfill('0') << setw(3)<< attack
             << ", range ==> " <<setfill('0') << setw(3)<< weapon.get_range() << " ==> " << weapon.get_name() <<endl;
         }
         void life_plus(){
@@ -524,7 +524,6 @@ void commander(vector<pf::Position> POS){
             pf::ClearScreen();
             pf::ShowGameBoard(board_row,board_col);
         }
-        cout<<"END OF TURN " << t << endl ;
         pf::Pause();
         pf::ClearScreen();
         pf::ShowGameBoard(board_row,board_col);
