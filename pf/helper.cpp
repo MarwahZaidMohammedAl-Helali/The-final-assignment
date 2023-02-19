@@ -67,6 +67,9 @@ namespace pf
 
             }
             kBoard[r1][c1] = i+49 ;
+            if(zc==1){
+                kBoard[r1][c1] = 'Z' ;
+            }
             POS.push_back({i+1 , r1, c1 , 'Z'});
         }
 //////////////////////health///////////
