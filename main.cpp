@@ -834,6 +834,7 @@ void right(){
 
 }
 void health(){
+    A.life_plus() ;
     cout << "You've found a health pack"<< (char) 3 <<" +20 ";
 }
 void Pod(){
