@@ -96,5 +96,10 @@ Played a vital role in the development of the game, he  played a great role in i
 ## Problems Encountered & Solutions
 
 
-Describe the problems encountered and provide the solutions / plan for the solutions.
+one of the problems that we encounterd was giving the player the ability to change the direction of the arrows, which we fixed by creating a function  arrow() that takes input from the user for the position of the row, as well as the column, and also the new direction that you want the arrow to face. It then checks the given cordinates for an arrow, if it finds an arrow (represented by the characters '<', '>', 'v', or '^'), it updates its direction to the given arrow direction.
 
+We also had trouble with giving the zombies the ability to move around the board. we have fixed it by creating a loop that  loops over all the zombies and checks if the zombie is alive by checking its life attribute. If the zombie is alive, the function print_Alien_active() is called to indicate that the alien is now active. The function printA() is then called to print the current state of the alien. The variable Z_active is set to true for the current zombie, and a loop is executed to print the current state of all the zombies on the board. Then the variable Z_active is reset to false after printing the state of each zombie.
+
+Fix usability issues like, we fixed that by simply adding else statments to th if block as well as adding a default to the switches.
+
+Add additional features, we struggled to come up with a good idea but after we setteled on enabling the alien to wuekd weapons such as a sord and an axe. We created a function that declares a variable called selectWeapon, which Prompts the user to select a weapon by entering either 1 for Sword or 2 for either a sowrd or an Axe. then the function calls the select_weapon() function of the object A or the alien which in turn it updates the alien's damage according to the chossen weapn as well as the range which enables the alien to strike from a distance much like the zombie.
