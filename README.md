@@ -17,18 +17,19 @@ g++ main.cpp final\main.cpp
 Please provide the user manual on how to use your program.
 User manual for "Alien vs. Zombie" game:
 
-1-Game Pieces: The board has columns and rows that can be changed by the user in the settings. The Alien is denoted by 'A' and moves around using commands "up", "down", "right", and "left". The Alien has objects like Health (H), Pod Attack (P) and Rock (r).
+1-Game Pieces: The board has columns and rows that can be changed by the user in the settings. The Alien is denoted by 'A' and moves around using commands "up", "down", "right", and "left". The Alien has objects like Health (H), Pod Attack (P) and Rock (r) the are also zombies which act like the antagonist in the game.
 
 a) Health: The Alien's health increases by 20 by collecting the Health object.
 
-b) Pod Attack: The Pod Attack  is used to attack and defeat the Zombies by decreasing their health.
+b) Pod Attack: The Pod Attack  is used to attack and defeat the Zombies by decreasing all of the zombies health by 10.
 
 c) Rock: The Rock  is an object that hides other objects within it and make the aline stop moving.
 
-2- How to Play: The player controls the Alien and uses the commands "up", "down", "right", and "left" to move around the board or type the command ("help") if you need any instructions in the game.
-The player  collects the Health object to increase the Alien's health . The game is won if the Alien successfully defeats the Zombies.
-Weapons! you can select now 1of2 weapons in the game! the sowrd and the axe are now avelible by typing the command ("selectW").
-And now you can save your game progress for later!, by typing the command ("save").
+2- How to Play: The player controls the Alien and uses the commands "up", "down", "right", and "left" to move around the board. the player can also type the command "help" if he needs any instructions in the game. the player can also change the direction of any of the arrows on the board to help him increase the attack and nevigate around the board more flexibly .
+The player  collects the Health object to increase the Alien's health. The game is won if the Alien successfully defeats the Zombies.
+Weapons! you can select now 1 of 2 weapons in the game! the sowrd and the axe are now avelible by typing the command "selectW" and the choosing 1 or do for the sword and axe respectivly.
+
+you can save your game progress for later!, by typing the command "save".
 
 Tips: Use strategy and quick thinking to navigate the board and defeat them all!.
 
